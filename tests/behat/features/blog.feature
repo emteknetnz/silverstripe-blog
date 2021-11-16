@@ -123,3 +123,5 @@ Feature: Create a blog
     # And I press the "Spam" button
     # And I wait for 2 seconds
     # Then I should not see "hello@example.com"
+
+

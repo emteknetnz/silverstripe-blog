@@ -3,6 +3,8 @@ Feature: Create a blog
   I want to create a blog
 
   Background:
+    Given the page template includes the comments form
+
     Given the "group" "EDITOR group" has permissions "CMS_ACCESS_LeftAndMain"
     And I add an extension "SilverStripe\Widgets\Extensions\WidgetPageExtension" to the "Page" class
 
@@ -123,5 +125,3 @@ Feature: Create a blog
     # And I press the "Spam" button
     # And I wait for 2 seconds
     # Then I should not see "hello@example.com"
-
-

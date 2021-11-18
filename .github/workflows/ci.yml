@@ -10,4 +10,4 @@ jobs:
     with:
       composer_require_extra: "silverstripe/widgets:^2 silverstripe/comments:^3 silverstripe/content-widget:^2"
 
-# re-run build .
+# re-run build ..

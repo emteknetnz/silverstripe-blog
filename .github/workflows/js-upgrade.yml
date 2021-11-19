@@ -2,12 +2,13 @@ name: JS Upgrade
 
 on:
   # TODO: cron instead of push
-  push:
-    branches:
-      - 3
+#   push:
+#     branches:
+#       - 3
+  # manual trigger
+  workflow_dispatch:
 
 jobs:
   ci:
     uses: emteknetnz/github-actions-ci-cd/.github/workflows/js-upgrade.yml@dynamic
 
-# re-run .
